@@ -26,7 +26,7 @@ function subtract(num1, num2) {
 	return num1 - num2;
 }
 
-Function expression :
+Function expression(Anonymus function ) :
 
 Function expressions, however, do not hoist. If you try to run a function before you’ve expressed it, you’ll get an error.
 
@@ -46,5 +46,41 @@ substract(7, 4); // returns Uncaught TypeError: subtract is not a function
 var subtract = function (num1, num2) {
 	return num1 - num2;
 };
+/////////////////////////////////////////////////////
+
+#local scope vs global scope# 
+
+#local scope
+
+local Variables declared within a JavaScript function, become LOCAL to the function.
+Local variables have Function scope: They can only be accessed from within the function.
+
+// code here can NOT use carName
+
+function myFunction() {
+  var carName = "Volvo";
+
+  // code here CAN use carName
+
+}
+
+global scope# 
+
+A variable declared outside a function, becomes GLOBAL.
+A global variable has global scope: All scripts and functions on a web page can access it. 
+
+var carName = "Volvo";
+
+// code here can use carName
+
+function myFunction() {
+
+  // code here can also use carName 
+
+}
+
+/////////////////////
+
+
 
 
