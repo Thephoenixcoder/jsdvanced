@@ -64,7 +64,7 @@ function myFunction() {
 
 }
 
-global scope# 
+#global scope# 
 
 A variable declared outside a function, becomes GLOBAL.
 A global variable has global scope: All scripts and functions on a web page can access it. 
@@ -80,6 +80,21 @@ function myFunction() {
 }
 
 /////////////////////
+#To convert or treat declartion function to Expression function 
+
+IFEE Pattern  --> Imediateley invoked fucntion  expression  
+
+// Variation 1
+(function() {
+    alert("I am an IIFE!");
+}());
+
+// Variation 2
+(function() {
+    alert("I am an IIFE, too!");
+})();
+///////////////////////////////////////
+
 
 
 
