@@ -104,7 +104,11 @@ function foo() {
     }
 }
 //////////////////////////
-
+Hoisting : 
+ is Declaration variables and Declaration functions 
+ var x ; 
+ x=5 
+ 
 
 
 
