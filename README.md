@@ -93,7 +93,18 @@ IFEE Pattern  --> Imediateley invoked fucntion  expression
 (function() {
     alert("I am an IIFE, too!");
 })();
-///////////////////////////////////////
+/////////
+#BLOCK SCOPE VS FUNCTION SCOPE 
+var --> scope function  
+Let (es6+) --> between  {}
+function foo() {
+    // function scope
+    if (condition) {
+        // block scope
+    }
+}
+//////////////////////////
+
 
 
 
