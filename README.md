@@ -1,6 +1,7 @@
-# jsdvanced
+# jsadvanced
 
-Function declartion   
+Function declartion  vs Function expression
+
 #Hoisting
 
 When a JavaScript file (or HTML document with JavaScript in it) is loaded, function declarations are hoisted to the top of the code by the browser before any code is executed.
