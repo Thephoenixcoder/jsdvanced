@@ -127,7 +127,7 @@ it is like
 5=="5"    ==> true 
 ---------
 
-
+ternary operator 
 
 
 
