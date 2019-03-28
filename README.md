@@ -108,7 +108,26 @@ Hoisting :
  is Declaration variables and Declaration functions 
  var x ; 
  x=5 
- 
+------------
+prototype :
+all function inside 
+
+---- 
+object  linked 
+===
+
+high order function  
+connect()(anotherfunction)
+------
+coercion 
+
+it is like 
+
+5==="5"   ==>  false 
+5=="5"    ==> true 
+---------
+
+
 
 
 
