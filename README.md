@@ -112,6 +112,11 @@ Hoisting :
 prototype :
 all function inside 
 
+----
+
+==  ->  it is compare  value  
+=== ->  it is compare value and type
+
 ---- 
 object  linked 
 ===
@@ -128,7 +133,9 @@ it is like
 ---------
 
 ternary operator 
-
+----
+stack  
+first in first out 
 
 
 
