@@ -137,6 +137,36 @@ ternary operator
 stack  
 first in first out 
 
+----
+let vs var 
+let is block scope  
+var  function scope 
+----
 
+let vs const 
 
+const  cannot reaseigned  
+const c=[1,2,3]
+c=[3,4,5]  ==> it will  shut error can not assigned const value  
+
+--
+const c = [4,5,6]  
+c.push(7)  it will successed  [4,5,6,7]
+-----
+
+different between  undefined  vs null 
+both represent empty value 
+if we used value  undefined  it will  be undefined  
+if you use  null value  it will be object  
+if you  define value and didnot assigned  it  js will create place holder name undefined 
+---
+convert json to  object  
+var txt = '{"name":"John", "age":30, "city":"New York"}'
+var obj = JSON.parse(txt);
+convert object  to json 
+var arr = [ "John", "Peter", "Sally", "Jane" ];
+var myJSON = JSON.stringify(arr);
+---
+
+conviniet contact / 
 
