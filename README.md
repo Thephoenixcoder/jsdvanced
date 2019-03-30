@@ -196,3 +196,7 @@ The self-invoking function only runs once. It sets the counter to zero (0), and 
 This way add becomes a function. The "wonderful" part is that it can access the counter in the parent scope.
 
 This is called a JavaScript closure. It makes it possible for a function to have "private" variables.
+
+----
+push ()  -- >   put elemet in last in array  ///  unshift()---->  put items in first  array   
+pull ()  --->  remove last  item array         ///  shift()  ---- remove first item  array 
