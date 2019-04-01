@@ -114,9 +114,6 @@ all function inside
 
 ----
 
-==  ->  it is compare  value  
-=== ->  it is compare value and type
-
 ---- 
 object  linked 
 ===
@@ -133,6 +130,11 @@ it is like
 
 5==="5"   ==>  false 
 5=="5"    ==> true 
+
+
+==  ->  it is compare  value  
+=== ->  it is compare value and type
+
 ---------
 
 ternary operator 
@@ -200,3 +202,8 @@ This is called a JavaScript closure. It makes it possible for a function to have
 ----
 push ()  -- >   put elemet in last in array  ///  unshift()---->  put items in first  array   
 pull ()  --->  remove last  item array         ///  shift()  ---- remove first item  array 
+
+////
+Fat Arrow (Arrow function  ) 
+1- reduce the number of code 
+2- in oop  this will  
