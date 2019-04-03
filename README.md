@@ -165,10 +165,10 @@ if we used value  undefined  it will  be undefined
 if you use  null value  it will be object  
 if you  define value and didnot assigned  it  js will create place holder name undefined 
 ---
-convert json to  object  
+convert text or object to json  
 var txt = '{"name":"John", "age":30, "city":"New York"}'
 var obj = JSON.parse(txt);
-convert object  to json 
+JSON string from a JavaScript object
 var arr = [ "John", "Peter", "Sally", "Jane" ];
 var myJSON = JSON.stringify(arr);
 ---
